@@ -1,23 +1,17 @@
 {
-  "version": "v47-commercial-final",
-  "calculationLogic": "unchanged nearest-scenario engine from supplied V46/V45 baseline",
-  "dataSource": "Updated Model_06.09.2026.xlsx / embedded model_data.json",
-  "laminatesShown": [
-    "418",
-    "428",
-    "618",
-    "819",
-    "823",
-    "618 W",
-    "821M"
+  "version": "v48-three-fixes-final",
+  "calculationEngine": "nearest-scenario preserved",
+  "dataSource": "Updated Model_06.09.2026.xlsx",
+  "rows": {
+    "laminates": 70,
+    "pouches": 210
+  },
+  "fixes": [
+    "dark mode dropdown",
+    "QR complete PWA",
+    "units"
   ],
-  "theme": [
-    "light",
-    "dark"
-  ],
-  "themePersistence": "localStorage",
-  "qrCode": true,
-  "motion": "150-300ms CSS transform/opacity; reduced-motion supported",
-  "blankScreenFix": "embedded data; no startup fetch dependency",
-  "password": "Success2026"
+  "showPassword": true,
+  "qrModal": true,
+  "indexIncluded": true
 }
