@@ -1,0 +1,23 @@
+{
+  "version": "v47-commercial-final",
+  "calculationLogic": "unchanged nearest-scenario engine from supplied V46/V45 baseline",
+  "dataSource": "Updated Model_06.09.2026.xlsx / embedded model_data.json",
+  "laminatesShown": [
+    "418",
+    "428",
+    "618",
+    "819",
+    "823",
+    "618 W",
+    "821M"
+  ],
+  "theme": [
+    "light",
+    "dark"
+  ],
+  "themePersistence": "localStorage",
+  "qrCode": true,
+  "motion": "150-300ms CSS transform/opacity; reduced-motion supported",
+  "blankScreenFix": "embedded data; no startup fetch dependency",
+  "password": "Success2026"
+}
