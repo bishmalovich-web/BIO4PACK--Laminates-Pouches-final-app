@@ -1,17 +1,8 @@
 {
-  "version": "v48-three-fixes-final",
-  "calculationEngine": "nearest-scenario preserved",
-  "dataSource": "Updated Model_06.09.2026.xlsx",
-  "rows": {
-    "laminates": 70,
-    "pouches": 210
-  },
-  "fixes": [
-    "dark mode dropdown",
-    "QR complete PWA",
-    "units"
-  ],
-  "showPassword": true,
-  "qrModal": true,
-  "indexIncluded": true
+  "version": "v49-landscape-comparison",
+  "base": "V48 complete three-fixes release",
+  "change": "comparison calculators side by side in landscape up to 1024px",
+  "calculationLogicChanged": false,
+  "databaseChanged": false,
+  "password": "Success2026"
 }

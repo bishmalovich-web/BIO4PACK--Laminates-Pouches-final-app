@@ -1,2 +1,2 @@
-BIO4PACK V48 THREE FIXES FINAL
-Complete deployable release with index.html. Based on V47 functionality and updated Excel data. Fixes: dark-mode desktop dropdown colors, complete QR/PWA installation access, and input units. Password: Success2026.
+BIO4PACK V49 LANDSCAPE COMPARISON
+Complete deployable release based on V48. Only functional change: two calculators remain side by side on phones/tablets in landscape orientation. Portrait and desktop behavior remain unchanged. Password: Success2026.
