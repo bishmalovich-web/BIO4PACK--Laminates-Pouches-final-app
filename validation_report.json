@@ -1,0 +1,58 @@
+{
+  "version": "v60-full-feature-patch",
+  "fullFeatureChecks": {
+    "password": true,
+    "lock": true,
+    "darkLight": true,
+    "qr": true,
+    "install": true,
+    "comparison": true,
+    "laminates": true,
+    "pouches": true,
+    "mobileResponsive": true,
+    "impInputs": true
+  },
+  "removedInternalOutputs": [
+    "Matched Scenario",
+    "Excel validation",
+    "Library Match",
+    "Scenario ID"
+  ],
+  "tests": [
+    {
+      "name": "Excel 600.64 regression",
+      "inputs": {
+        "laminate": "428",
+        "thickness_um": 80,
+        "width_mm": 352,
+        "units": "Length",
+        "quantity_m": 52800,
+        "printing": "Printed",
+        "colors": "3-4",
+        "skus": 1,
+        "additional_gp_pct": 0
+      },
+      "expected_b4p_eur_per_1000m": 600.64,
+      "actual_b4p_eur_per_1000m": 600.64,
+      "pass": true
+    },
+    {
+      "name": "Not Printed controls",
+      "expected": "Colors and SKUs hidden; internal values zero",
+      "actual": "Implemented",
+      "pass": true
+    },
+    {
+      "name": "No internal details visible",
+      "expected": "No matched scenario/debug cards",
+      "actual": "Removed",
+      "pass": true
+    },
+    {
+      "name": "Feature preservation",
+      "expected": "Password/theme/QR/install/lock/compare/pouches",
+      "actual": "Implemented",
+      "pass": true
+    }
+  ]
+}

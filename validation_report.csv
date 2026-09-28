@@ -1,0 +1,5 @@
+Test,Expected,Actual,Pass
+Excel 600.64 case,600.64,600.64,TRUE
+Not Printed zero values,Colors=0; SKUs=0,Colors=0; SKUs=0,TRUE
+Internal details,Hidden,Hidden,TRUE
+Full features,Preserved,Preserved,TRUE
