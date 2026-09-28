@@ -1,0 +1,4 @@
+Scenario,Quantity_m,Calculated_kg,Setup_allocation_EUR_per_kg,Expected_sell_EUR_per_kg
+618 W-0122,50,1.68425,187.026867,234.269175
+618 W-0122,4000,134.74,2.337836,16.987963
+618 W-0122,20000,673.7,0.467567,14.787647

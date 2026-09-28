@@ -1,0 +1,66 @@
+{
+  "rule": "When Printing is Not Printed, Colors=0, SKUs=0, printing controls hidden, plate note hidden, printing/setup adjustment not applied.",
+  "libraryObservation": "Expanded copilot validation rows are Printed; Not Printed behavior is enforced by application state and calculation safeguards.",
+  "tests": [
+    {
+      "Type": "Laminate",
+      "Printing": "Not Printed",
+      "Starting_Colors": "1-2",
+      "Starting_SKUs": 1,
+      "App_Forced_Colors": "0",
+      "App_Forced_SKUs": 0,
+      "Print_Setup_Applied": false,
+      "Pass": true
+    },
+    {
+      "Type": "Laminate",
+      "Printing": "Not Printed",
+      "Starting_Colors": "3-4",
+      "Starting_SKUs": 4,
+      "App_Forced_Colors": "0",
+      "App_Forced_SKUs": 0,
+      "Print_Setup_Applied": false,
+      "Pass": true
+    },
+    {
+      "Type": "Laminate",
+      "Printing": "Not Printed",
+      "Starting_Colors": "5-8",
+      "Starting_SKUs": 8,
+      "App_Forced_Colors": "0",
+      "App_Forced_SKUs": 0,
+      "Print_Setup_Applied": false,
+      "Pass": true
+    },
+    {
+      "Type": "Pouch",
+      "Printing": "Not Printed",
+      "Starting_Colors": "1-2",
+      "Starting_SKUs": 1,
+      "App_Forced_Colors": "0",
+      "App_Forced_SKUs": 0,
+      "Print_Setup_Applied": false,
+      "Pass": true
+    },
+    {
+      "Type": "Pouch",
+      "Printing": "Not Printed",
+      "Starting_Colors": "3-4",
+      "Starting_SKUs": 4,
+      "App_Forced_Colors": "0",
+      "App_Forced_SKUs": 0,
+      "Print_Setup_Applied": false,
+      "Pass": true
+    },
+    {
+      "Type": "Pouch",
+      "Printing": "Not Printed",
+      "Starting_Colors": "5-8",
+      "Starting_SKUs": 8,
+      "App_Forced_Colors": "0",
+      "App_Forced_SKUs": 0,
+      "Print_Setup_Applied": false,
+      "Pass": true
+    }
+  ]
+}
