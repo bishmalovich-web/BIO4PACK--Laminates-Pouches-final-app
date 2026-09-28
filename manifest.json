@@ -1,6 +1,6 @@
 {
-  "name": "BIO4PACK Pricing Suite",
-  "short_name": "BIO4PACK",
+  "name": "BIO4PACK Financial-Operational Pricing Suite",
+  "short_name": "BIO4PACK Finance",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

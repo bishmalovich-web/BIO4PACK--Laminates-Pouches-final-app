@@ -1,8 +1,25 @@
 {
-  "version": "v49-landscape-comparison",
-  "base": "V48 complete three-fixes release",
-  "change": "comparison calculators side by side in landscape up to 1024px",
-  "calculationLogicChanged": false,
-  "databaseChanged": false,
-  "password": "Success2026"
+  "version": "v51-28.09.2026",
+  "sourceWorkbook": "Updated Model_28.09.2026.xlsx",
+  "allowedLaminates": [
+    "418",
+    "428",
+    "618",
+    "819",
+    "823",
+    "618 W",
+    "821M"
+  ],
+  "laminateValidationRows": 98,
+  "pouchValidationRows": 294,
+  "printingPlateMessageEUR": 350,
+  "visibleTerms": {
+    "Supplier": "Producer",
+    "Designs": "No. of SKUs",
+    "Input Quantity": "Total Quantity",
+    "Input Mode": "Units",
+    "By Length": "Length",
+    "By Weight": "Weight",
+    "By Imp": "Imp"
+  }
 }

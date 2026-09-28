@@ -1,2 +1,6 @@
-BIO4PACK V49 LANDSCAPE COMPARISON
-Complete deployable release based on V48. Only functional change: two calculators remain side by side on phones/tablets in landscape orientation. Portrait and desktop behavior remain unchanged. Password: Success2026.
+BIO4PACK Financial-Operational Pricing Suite v51 - 28.09.2026
+Updated from Updated Model_28.09.2026.xlsx.
+Approved laminates only: 418, 428, 618, 819, 823, 618 W, 821M.
+Visible terminology: Producer, No. of SKUs, Units, Total Quantity; Units values Length, Weight, Imp.
+Printed message: printing plates excluded; EUR 350 per plate.
+Upload all extracted files to the GitHub repository root.
