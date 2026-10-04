@@ -1,5 +1,6 @@
-Test,Expected,Actual,Pass
-Excel 600.64 case,600.64,600.64,TRUE
-Not Printed zero values,Colors=0; SKUs=0,Colors=0; SKUs=0,TRUE
-Internal details,Hidden,Hidden,TRUE
-Full features,Preserved,Preserved,TRUE
+Test,Result
+Workbook sources available,PASS
+Pouch supplier is Marma,PASS
+Laminate margin is 15%,PASS
+Deleted sheet absent,PASS
+Exact 600.64 regression,PASS
