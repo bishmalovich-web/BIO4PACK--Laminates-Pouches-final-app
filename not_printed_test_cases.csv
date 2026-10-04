@@ -1,7 +1,0 @@
-Type,Printing,Starting_Colors,Starting_SKUs,App_Forced_Colors,App_Forced_SKUs,Print_Setup_Applied,Pass
-Laminate,Not Printed,1-2,1,0,0,False,True
-Laminate,Not Printed,3-4,4,0,0,False,True
-Laminate,Not Printed,5-8,8,0,0,False,True
-Pouch,Not Printed,1-2,1,0,0,False,True
-Pouch,Not Printed,3-4,4,0,0,False,True
-Pouch,Not Printed,5-8,8,0,0,False,True
