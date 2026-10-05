@@ -1,0 +1,8 @@
+BIO4PACK V61.3 LIGHTWEIGHT
+index.html: 15143 bytes
+model_data.json: 17162677 bytes
+Both under 25MB: True
+Not Printed: PASS
+SKU price impact: PASS
+Supplier: Marma
+Base margin: 15%
