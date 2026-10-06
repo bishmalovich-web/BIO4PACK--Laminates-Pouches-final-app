@@ -1,6 +1,37 @@
-BIO4PACK V61.3.2
-additionalGPDefaultZero: True
-coreUsedInCalculation: True
-scenarioB4PUsed: True
-pouchPrintedAndNotPrintedFixPreserved: True
-modelDataUnder25MB: True
+BIO4PACK V61.3.3
+{
+  "version": "v61.3.3-laminate-width-core-correlation",
+  "checks": {
+    "additionalGPDefaultZero": true,
+    "widthNormalized": true,
+    "coreChangesPrice": true,
+    "pouchFixPreserved": true,
+    "dataUnder25MB": true
+  },
+  "screenshotValidation": [
+    {
+      "laminate": "618",
+      "appSell": 12.01441067699962,
+      "excelSell": 12.01,
+      "sellGapPct": 0.03672503746561251,
+      "appB4P": 397.16679321410487,
+      "excelB4P": 389.91,
+      "b4pGapPct": 1.8611457039072743,
+      "appWeight": 2066.095894607843
+    },
+    {
+      "laminate": "819",
+      "appSell": 10.821967789669454,
+      "excelSell": 10.82,
+      "sellGapPct": 0.018186595835989472,
+      "appB4P": 395.22096917067597,
+      "excelB4P": 396.1,
+      "b4pGapPct": -0.22192144138450942,
+      "appWeight": 2282.5156250000005
+    }
+  ],
+  "indexBytes": 16275,
+  "modelDataBytes": 17162699,
+  "laminateRows": 3360,
+  "pouchRows": 10080
+}
