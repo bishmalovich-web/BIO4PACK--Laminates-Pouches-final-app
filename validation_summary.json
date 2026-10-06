@@ -1,59 +1,19 @@
 {
-  "version": "v61.3-lightweight",
-  "indexBytes": 15143,
-  "modelDataBytes": 17162677,
-  "bothUnder25MB": true,
+  "version": "v61.3.1-pouch-core-price-layout",
+  "checks": {
+    "pouchPositiveFilter": true,
+    "printedPouchLogic": true,
+    "notPrintedPouchLogic": true,
+    "coreDefault": true,
+    "coreField": true,
+    "sellPriceCard": true,
+    "b4pHero": true,
+    "dataUnder25MB": true
+  },
+  "indexBytes": 16033,
+  "modelDataBytes": 17162691,
   "laminateRows": 3360,
   "pouchRows": 10080,
-  "thicknesses": {
-    "418": [
-      51
-    ],
-    "428": [
-      80
-    ],
-    "618": [
-      51,
-      56,
-      61,
-      66,
-      77,
-      86,
-      100
-    ],
-    "648": [
-      51,
-      56,
-      61,
-      66,
-      77,
-      86,
-      100
-    ],
-    "648W": [
-      51,
-      56,
-      61,
-      66,
-      77,
-      86,
-      100
-    ],
-    "819": [
-      121
-    ],
-    "823": [
-      121
-    ],
-    "618 W": [
-      51
-    ],
-    "821M": [
-      79
-    ]
-  },
-  "notPrinted": true,
-  "skuImpact": true,
   "supplier": "Marma",
   "baseMargin": 0.15
 }
