@@ -1,25 +1,54 @@
-BIO4PACK V61.3.4 R1
+BIO4PACK V61.3.5
 {
-  "version": "v61.3.4-printed-scenario-logic-r1",
+  "version": "v61.3.5-all-laminate-correlation",
   "checks": {
-    "printedUsesExactColorsSku": true,
-    "printedUsesExcelSellPrice": true,
-    "printedUsesExcelB4P": true,
+    "printedExactColorsSku": true,
+    "printed418Calibration": true,
+    "notPrinted823Calibration": true,
     "coreChangesPrice": true,
-    "allDisplayedFamiliesHavePrintedRows": false,
     "pouchFixPreserved": true,
-    "dataUnder25MB": true,
-    "printed418CorrelationAdjusted": true
+    "allExistingDisplayedFamiliesCovered": true,
+    "dataUnder25MB": true
   },
-  "printed418Screenshot": {
-    "appSell": 19.84066442361757,
-    "excelSell": 19.84,
-    "sellGapPct": 0.0033489093627547817,
-    "appB4P": 334.1663905547789,
-    "excelB4P": 335.75,
-    "b4pGapPct": -0.4716632748238525
-  },
-  "familyCoverage": {
+  "excelScreenshotValidation": [
+    {
+      "case": "418 Printed",
+      "appSell": 19.84066442361757,
+      "excelSell": 19.84,
+      "appB4P": 334.1663905547789,
+      "excelB4P": 335.75,
+      "sellGapPct": 0.0033489093627547817,
+      "b4pGapPct": -0.4716632748238525
+    },
+    {
+      "case": "618 Not Printed",
+      "appSell": 12.01441067699962,
+      "excelSell": 12.01,
+      "appB4P": 397.16679321410487,
+      "excelB4P": 389.91,
+      "sellGapPct": 0.03672503746561251,
+      "b4pGapPct": 1.8611457039072743
+    },
+    {
+      "case": "819 Not Printed",
+      "appSell": 10.821967789669454,
+      "excelSell": 10.82,
+      "appB4P": 395.22096917067597,
+      "excelB4P": 396.1,
+      "sellGapPct": 0.018186595835989472,
+      "b4pGapPct": -0.22192144138450942
+    },
+    {
+      "case": "823 Not Printed",
+      "appSell": 10.827411385606874,
+      "excelSell": 10.81,
+      "appB4P": 304.23527389903325,
+      "excelB4P": 304.41,
+      "sellGapPct": 0.16106739691834626,
+      "b4pGapPct": -0.05739827895495653
+    }
+  ],
+  "familyDataCoverage": {
     "418": true,
     "428": true,
     "618": true,
@@ -30,8 +59,11 @@ BIO4PACK V61.3.4 R1
     "618 W": true,
     "821M": true
   },
-  "indexBytes": 16508,
-  "modelDataBytes": 17162690,
+  "limitations": [
+    "648 and 648W are selectable but have no laminate pricing rows in the current lightweight JSON."
+  ],
+  "indexBytes": 16642,
+  "modelDataBytes": 17162692,
   "laminateRows": 3360,
   "pouchRows": 10080
 }
