@@ -1,17 +1,14 @@
 {
-  "version": "v61.3.1-pouch-core-price-layout",
+  "version": "v61.3.2-excel-correlated-core",
   "checks": {
-    "pouchPositiveFilter": true,
-    "printedPouchLogic": true,
-    "notPrintedPouchLogic": true,
-    "coreDefault": true,
-    "coreField": true,
-    "sellPriceCard": true,
-    "b4pHero": true,
-    "dataUnder25MB": true
+    "additionalGPDefaultZero": true,
+    "coreUsedInCalculation": true,
+    "scenarioB4PUsed": true,
+    "pouchPrintedAndNotPrintedFixPreserved": true,
+    "modelDataUnder25MB": true
   },
-  "indexBytes": 16033,
-  "modelDataBytes": 17162691,
+  "indexBytes": 16446,
+  "modelDataBytes": 17162689,
   "laminateRows": 3360,
   "pouchRows": 10080,
   "supplier": "Marma",

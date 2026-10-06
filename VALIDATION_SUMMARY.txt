@@ -1,11 +1,6 @@
-BIO4PACK V61.3.1
-pouchPositiveFilter: True
-printedPouchLogic: True
-notPrintedPouchLogic: True
-coreDefault: True
-coreField: True
-sellPriceCard: True
-b4pHero: True
-dataUnder25MB: True
-Laminate rows: 3360
-Pouch rows: 10080
+BIO4PACK V61.3.2
+additionalGPDefaultZero: True
+coreUsedInCalculation: True
+scenarioB4PUsed: True
+pouchPrintedAndNotPrintedFixPreserved: True
+modelDataUnder25MB: True
