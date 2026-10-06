@@ -1,36 +1,36 @@
 {
-  "version": "v61.3.3-laminate-width-core-correlation",
+  "version": "v61.3.4-printed-scenario-logic-r1",
   "checks": {
-    "additionalGPDefaultZero": true,
-    "widthNormalized": true,
+    "printedUsesExactColorsSku": true,
+    "printedUsesExcelSellPrice": true,
+    "printedUsesExcelB4P": true,
     "coreChangesPrice": true,
+    "allDisplayedFamiliesHavePrintedRows": false,
     "pouchFixPreserved": true,
-    "dataUnder25MB": true
+    "dataUnder25MB": true,
+    "printed418CorrelationAdjusted": true
   },
-  "screenshotValidation": [
-    {
-      "laminate": "618",
-      "appSell": 12.01441067699962,
-      "excelSell": 12.01,
-      "sellGapPct": 0.03672503746561251,
-      "appB4P": 397.16679321410487,
-      "excelB4P": 389.91,
-      "b4pGapPct": 1.8611457039072743,
-      "appWeight": 2066.095894607843
-    },
-    {
-      "laminate": "819",
-      "appSell": 10.821967789669454,
-      "excelSell": 10.82,
-      "sellGapPct": 0.018186595835989472,
-      "appB4P": 395.22096917067597,
-      "excelB4P": 396.1,
-      "b4pGapPct": -0.22192144138450942,
-      "appWeight": 2282.5156250000005
-    }
-  ],
-  "indexBytes": 16275,
-  "modelDataBytes": 17162699,
+  "printed418Screenshot": {
+    "appSell": 19.84066442361757,
+    "excelSell": 19.84,
+    "sellGapPct": 0.0033489093627547817,
+    "appB4P": 334.1663905547789,
+    "excelB4P": 335.75,
+    "b4pGapPct": -0.4716632748238525
+  },
+  "familyCoverage": {
+    "418": true,
+    "428": true,
+    "618": true,
+    "648": false,
+    "648W": false,
+    "819": true,
+    "823": true,
+    "618 W": true,
+    "821M": true
+  },
+  "indexBytes": 16508,
+  "modelDataBytes": 17162690,
   "laminateRows": 3360,
   "pouchRows": 10080
 }
