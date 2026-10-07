@@ -1,17 +1,151 @@
 {
-  "version": "v61.3.6-password-restored",
-  "checks": {
-    "passwordSuccess2026": true,
-    "showHidePassword": true,
-    "enterToUnlock": true,
-    "sessionProtection": true,
-    "lockReturnsToLogin": true,
-    "printedNotPrintedLogicPreserved": true,
-    "coreEffectPreserved": true,
-    "dataUnder25MB": true
+  "version": "v61.4.1-full-excel-validation",
+  "sourceWorkbook": "Updated Model_07.10.2026.xlsx",
+  "acceptanceThresholdPct": 5,
+  "printedLaminateValidation": {
+    "scenarios": 6912,
+    "maxPriceGapPct": 0.0,
+    "maxB4PGapPct": 0.0,
+    "within5Pct": true,
+    "byFamily": {
+      "418": {
+        "scenarios": 384,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "428": {
+        "scenarios": 384,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "618": {
+        "scenarios": 2688,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "618 W": {
+        "scenarios": 384,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "648": {
+        "scenarios": 1536,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "648W": {
+        "scenarios": 384,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "819": {
+        "scenarios": 384,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "821M": {
+        "scenarios": 384,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "823": {
+        "scenarios": 384,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      }
+    }
   },
-  "indexBytes": 16859,
-  "modelDataBytes": 17162685,
-  "laminateRows": 3360,
-  "pouchRows": 10080
+  "printedPouchValidation": {
+    "scenarios": 10368,
+    "maxPriceGapPct": 0.0,
+    "maxB4PGapPct": 8.215650382226158e-13,
+    "within5Pct": true,
+    "byFamily": {
+      "418": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 1.9984014443252818e-13,
+        "within5Pct": true
+      },
+      "428": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 5.995204332975845e-13,
+        "within5Pct": true
+      },
+      "618": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 8.215650382226158e-13,
+        "within5Pct": true
+      },
+      "618 W": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "648": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 6.217248937900877e-13,
+        "within5Pct": true
+      },
+      "648W": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 7.327471962526033e-13,
+        "within5Pct": true
+      },
+      "819": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "821M": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      },
+      "823": {
+        "scenarios": 1152,
+        "maxPriceGapPct": 0.0,
+        "maxB4PGapPct": 0.0,
+        "within5Pct": true
+      }
+    }
+  },
+  "notPrintedValidation": {
+    "method": "Calibrated family factors retained from user-verified Excel comparisons because the static copilot libraries contain Printed scenarios only.",
+    "factors": {
+      "418": 0.86,
+      "428": 0.86,
+      "618": 0.804,
+      "618 W": 0.804,
+      "648": 0.84,
+      "648W": 0.84,
+      "819": 0.931,
+      "823": 0.872,
+      "821M": 0.9
+    }
+  },
+  "coreValidation": {
+    "workbookReferenceCore": "6 inch",
+    "3InchAppAdjustmentPct": -1,
+    "note": "Core is not a dimension in the static scenario libraries; the existing controlled 1% adjustment is retained."
+  },
+  "password": "Success2026",
+  "modelDataBytes": 9190311,
+  "under25MB": true
 }
